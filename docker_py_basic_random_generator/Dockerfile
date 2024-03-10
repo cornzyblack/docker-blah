@@ -4,5 +4,5 @@ WORKDIR /app
 # Something breaks here, what is it
 # Does rerunning the container after fixing the issue fix it?
 COPY requirements.txt script.py /app/
-# All good?
+# All good ?
 CMD ["python", "script.py"]
