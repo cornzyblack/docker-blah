@@ -1,11 +1,14 @@
 # How to setup
 
-Simply run the following:
+Simply run the following (replace when necessary):
 
 ```shell
 cd docker_sample_bash_script
 docker image build -t <name_you_want_to_give>:tag .
 ```
+
+### Looking at a DockerFile
+- What do the commands in the Dockerfile mean/do? [Reference](https://docs.docker.com/reference/dockerfile/#cmd)
 
 ### Building the image
 
@@ -28,5 +31,6 @@ Note that not passing a tag as shown here `docker container run docker-sample-ba
 
 ### Question
 - What is the difference between running `docker container run --rm docker-sample-bash:latest` and `docker container run docker-sample-bash:latest` ?
+
 - What happens if we run `docker image build -t docker-sample-bash:latest .` again?
 - What happens if we run `docker image build -t docker-sample-bash:alpha .`?
