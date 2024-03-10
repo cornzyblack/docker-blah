@@ -10,9 +10,13 @@ cd docker_py_basic_random_generator
 
 ```shell
 cd docker_py_basic_random_generator
-docker image build -t docker-py-basic-random_generator:latest .
+docker image build -t py-basic-random_generator:latest .
 ```
 
 ```shell
-docker container run docker-py-basic-random_generator
+docker container run py-basic-random_generator
 ```
+
+### Question
+- ```md
+- Why are we having different outputs when we run this start the container?
