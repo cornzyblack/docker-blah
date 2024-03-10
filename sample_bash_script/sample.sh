@@ -1,6 +1,7 @@
 #!/bin/bash
 BASEDIR=$(dirname $0)
-source $BASEDIR/.env
+# Set Environmental variables
+source $BASEDIR/development.env
 echo $MYNAME;
 echo $USER;
 echo $FAVOURITE_COLOR;
