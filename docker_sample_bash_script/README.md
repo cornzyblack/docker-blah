@@ -16,7 +16,7 @@ cd docker_sample_bash_script
 docker image build -t docker-sample-1:latest .
 ```
 
-The above will build an image in your Docker, and then you can run the image using either the HASH code generated, or you can directly run the image using the name we gave it. In this case, using the example above, we do the following:
+The above will build an image in your Docker, and then you can run a container off an image using either the HASH code generated (image id), or you can directly run a container from an image using the name we gave it. This we will see below:
 
 ### Running the container
 
@@ -24,7 +24,7 @@ The above will build an image in your Docker, and then you can run the image usi
 docker container run docker-sample-1:latest
 ```
 
-Note that not passing a tag as shown here `docker container run docker-sample-1` will still result in using the **latest** tag for a Docker Image.
+Note that not passing a tag as shown here `docker container run docker-sample-1` will still result in using the **latest** tag for a Docker Image (this happens by default).
 
 ### Question
 - What is the difference between running `docker container run --rm docker-sample-1:latest` and `docker container run docker-sample-1:latest` ?
