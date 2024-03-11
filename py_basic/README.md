@@ -1,9 +1,9 @@
 # Print me some numbers
 
-This is project that contains a script that prints randomly generated numbers from 0 - 100 to the screen every 5 seconds.
+This project contains a script that prints randomly generated numbers from 0 to 100 to the screen every 5 seconds.
 
-### Virtual environment Setup
-First of all we need to cd into the directory
+### Virtual Environment Setup
+First of all, we need to cd into the directory
 
 
 #### Change directory
@@ -11,7 +11,7 @@ First of all we need to cd into the directory
 cd py_basic
 ```
 
-#### Virtual environment Setup
+#### Virtual Environment Setup
 
 Next, for Linux or Mac, do the following:
 
