@@ -33,8 +33,8 @@ if phone_catalog_html_tree:
         "div", {"class": re.compile("ProductItemGrid_gridItemWrapper__.*")}
     )
     print(all_phones_div)
-    # if all_phones_div:
-    #     for phone_div in all_phones_div:
+    if all_phones_div:
+        for phone_div in all_phones_div:
     #         {
     #             '': None
     #         }

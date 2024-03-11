@@ -33,3 +33,6 @@ def get_current_date(date_format: str = "%Y-%m-%d"):
         The current date in with the given time format
     """
     return datetime.now().strftime(date_format)
+
+
+# def get_

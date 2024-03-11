@@ -3,7 +3,6 @@ import time
 from pathlib import Path
 from dotenv import load_dotenv
 from selenium import webdriver
-from selenium.webdriver.common.by import By
 from utils import get_current_date, save_html
 from selenium.webdriver.chrome.options import Options
 from selenium.common.exceptions import TimeoutException
