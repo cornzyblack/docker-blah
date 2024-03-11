@@ -1,6 +1,6 @@
 # How to setup
 
-Simply run the following (replace when necessary):
+Run the following (replace when necessary):
 
 ```shell
 cd docker_sample_bash_script_1
@@ -26,12 +26,12 @@ docker container run docker-sample-bash-1:latest
 
 ### Question
 
-- Why is the container not working properly?  <!-- Let's do some invetigations. -->
+- Why is the container not working properly?  <!-- Let's do some investigations. -->
 - What is the difference between the **Dockerfile** in this folder, and the one in `docker_sample_bash_script/`?
 - What does this do `docker container run --name SDA_DE_test docker-sample-bash-1`
 - What is the difference between `docker container run docker-sample-bash-1:latest` and `docker container run --name SDA_DE_test docker-sample-bash-1`?
 
-Let's inspect the Docker image further using the GUI or terminal if you like.
+Let's further inspect the Docker image using the GUI or terminal.
 
 - What does the following do:
 `docker container run --env MYNAME=Eni --env FAVOURITE_COLOR=slimshady --name SDA_DE_test docker-sample-bash-1:latest`
@@ -39,6 +39,6 @@ Let's inspect the Docker image further using the GUI or terminal if you like.
 
 If the above code breaks for you, what's going on?
 
-- What does this do `docker container inspect SDA_DE_test` ?
+- What does this do `docker container inspect SDA_DE_test`?
 - What does `docker image inspect docker-sample-bash-1:latest` do? What's the difference?
 - What does this do? `docker container --rm run --env MYNAME=slimshady --env FAVOURITE_COLOR=Blue --name SDA_DE_test_shady docker-sample-bash-1:latest`
